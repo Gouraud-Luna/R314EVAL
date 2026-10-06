@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 const dbPath = join(__dirname, "/var/www/R314EVAL/data/clients.db");
 console.log("le chemin de la db :", dbPath);
 
-const db = new Database(dbPath);
+const db = new Database("/var/www/R314EVAL/data/clients.db");
 
 export function getClients() {
   return db.query(`
