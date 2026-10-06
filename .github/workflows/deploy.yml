@@ -39,10 +39,10 @@ jobs:
             /home/etudiant/.bun/bin/bun run --bun build
 
             echo "Redémarrage de l'application..."
-            sudo systemctl restart webclients
+            sudo systemctl restart clients
 
             echo "Vérification du service..."
-            sudo systemctl status webclients
+            systemctl status clients
 
             echo "Health check..."
             curl --fail http://localhost:3344/
