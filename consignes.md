@@ -39,3 +39,4 @@ Application d'exemple en **AstroJS SSR** avec :
 
 - Concevoir une action GitHub CI/CD pour le déploiement automatique de l'application (4pts)
 
+Test
