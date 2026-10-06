@@ -5,7 +5,8 @@ import { dirname, join } from "node:path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const dbPath = join(__dirname, import.meta.env.SQLITE_DB_PATH);
+const dbPath = join(__dirname, "/var/www/R314EVAL/data/clients.db");
+console.log("le chemin de la db :", dbPath);
 
 const db = new Database(dbPath);
 

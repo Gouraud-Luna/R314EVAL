@@ -19,18 +19,18 @@ Application d'exemple en **AstroJS SSR** avec :
     latitude REAL NOT NULL,
     longitude REAL NOT NULL
 - Ajoutez 4 enregistrements à la table clients (1pt) * 
-- Testez le code localement * git init
+- Testez le code localement *
 
 
-- Versionnez le code dans GitHub en faisant attention aux fichiers et dossiers à exclure (2pts) 
-- Recharger le code sur Votre VPS depuis GitHub (1pts)
-- Transférez la BDD locale vers le VPS (1pts)
-- Préparer le fichier .env coté VPS (0.5pt)
+- Versionnez le code dans GitHub en faisant attention aux fichiers et dossiers à exclure (2pts) * 
+- Recharger le code sur Votre VPS depuis GitHub (1pts) *
+- Transférez la BDD locale vers le VPS (1pts) * 
+- Préparer le fichier .env coté VPS (0.5pt) * 
 
-- Certifiez le site clients.<votredomaine>.<tld> (2pts)
-- Configurez Apache pour l'accès à l'application avec servername : clients.<votredomaine>.<tld> et numéro de port : 3018  (2pts)
+- Certifiez le site clients.<votredomaine>.<tld> (2pts) * 
+- Configurez Apache pour l'accès à l'application avec servername : clients.<votredomaine>.<tld> et numéro de port : 3344  (2pts) *
 
-- Générez la version build du code sur le VPS (0.5pts)
+- Générez la version build du code sur le VPS (0.5pts) * 
 
 - Installer l'application en tant que service sur le VPS (4pts)
 
