@@ -8,6 +8,14 @@ export default defineConfig({
   adapter:node({
       mode:"standalone"
   }),
+  security: {
+    allowedDomains: [
+      {
+        protocol: "https",
+        hostname: "client.luna-gouraud.fr"
+      }
+    ]
+  },
 
-  integrations: [auth()]
+  integrations: [auth({ configFile: './auth.config.mjs' })]
 });
