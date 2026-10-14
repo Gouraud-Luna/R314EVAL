@@ -1,0 +1,17 @@
+---
+import "../styles/app.css";
+const { title = "Clients" } = Astro.props;
+---
+
+<html lang="fr">
+    <head
+        ><meta charset="UTF-8" /><meta
+            name="viewport"
+            content="width=device-width"
+        /><title>{title}</title></head
+    >
+    <body
+        ><nav>
+        </nav><main class="container"><slot /></main>
+    </body>
+</html>
